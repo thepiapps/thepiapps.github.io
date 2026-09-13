@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Messages - SMS &amp; Text Messages</title>
+  <meta name="description"
+    content="Privacy Policy for Messages - SMS &amp; Text Messages Android Application. Learn how we handle permissions, privacy, and data security.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --primary-light: #eff6ff;
+      --success: #10b981;
+      --success-light: #ecfdf5;
+      --dark: #0f172a;
+      --text: #334155;
+      --text-muted: #64748b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --border-light: #f1f5f9;
+      --radius: 12px;
+      --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.07);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      color: #ffffff;
+      padding: 3.5rem 1.5rem 2.5rem;
+      border-bottom: 1px solid #334155;
+    }
+
+    .header-container {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      padding: 0.35rem 0.9rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: #93c5fd;
+      margin-bottom: 1.25rem;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin-bottom: 0.75rem;
+      color: #ffffff;
+    }
+
+    .meta-info {
+      color: #94a3b8;
+      font-size: 0.95rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: -1.5rem auto 4rem;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--border);
+      padding: 2.5rem 2.5rem;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 1.5rem 1.25rem;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+      }
+    }
+
+    .highlight-box {
+      background-color: var(--success-light);
+      border: 1px solid #a7f3d0;
+      border-left: 5px solid var(--success);
+      padding: 1.25rem 1.5rem;
+      border-radius: 8px;
+      margin: 1.75rem 0;
+    }
+
+    .highlight-box h3 {
+      color: #065f46;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .highlight-box p,
+    .highlight-box ul {
+      color: #047857;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .highlight-box ul {
+      margin-left: 1.25rem;
+      margin-top: 0.5rem;
+    }
+
+    .notice-box {
+      background-color: var(--primary-light);
+      border: 1px solid #bfdbfe;
+      border-left: 5px solid var(--primary);
+      padding: 1.25rem 1.5rem;
+      border-radius: 8px;
+      margin: 1.75rem 0;
+    }
+
+    .notice-box h4 {
+      color: #1e40af;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+
+    .notice-box p {
+      color: #1e3a8a;
+      font-size: 0.925rem;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin: 2.25rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border-light);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 1.5rem 0 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+
+    ul,
+    ol {
+      margin: 0.5rem 0 1.25rem 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    li strong {
+      color: var(--dark);
+    }
+
+    /* Permission Table / Cards */
+    .permission-group {
+      margin: 1.25rem 0;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .permission-group-title {
+      background: #f1f5f9;
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      color: var(--dark);
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .permission-item {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .permission-item:last-child {
+      border-bottom: none;
+    }
+
+    .permission-badge {
+      display: inline-block;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      background: #f1f5f9;
+      color: #0f172a;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.825rem;
+      font-weight: 600;
+      border: 1px solid #cbd5e1;
+      margin-bottom: 0.35rem;
+    }
+
+    .permission-desc {
+      font-size: 0.925rem;
+      color: var(--text);
+      margin-top: 0.2rem;
+      margin-bottom: 0;
+    }
+
+    /* Third-Party Service Cards */
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+      margin: 1.25rem 0;
+    }
+
+    .service-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      background: #fafafa;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+      background: #ffffff;
+    }
+
+    .service-card h4 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 0.4rem;
+    }
+
+    .service-card p {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .service-link {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .service-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Contact Box */
+    .contact-card {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .contact-card p {
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-card a {
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .contact-card a:hover {
+      text-decoration: underline;
+    }
+
+    /* Table of contents */
+    .toc-box {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .toc-box h3 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin: 0 0 0.75rem;
+    }
+
+    .toc-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.5rem 1rem;
+    }
+
+    .toc-list li {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    .toc-list a {
+      color: var(--primary);
+      text-decoration: none;
+      display: inline-block;
+      transition: color 0.15s;
+    }
+
+    .toc-list a:hover {
+      color: var(--primary-hover);
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      border-top: 1px solid var(--border);
+      background: #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="app-badge">
+        <span>🛡️ Official Privacy Policy</span>
+      </div>
+      <h1>Messages - SMS &amp; Text Messages</h1>
+      <div class="meta-info">
+        <div class="meta-item">
+          <strong>Package:</strong> <span>com.pi.messages</span>
+        </div>
+        <div class="meta-item">
+          <strong>Developer:</strong> <span>The Pi Apps</span>
+        </div>
+        <div class="meta-item">
+          <strong>Effective Date:</strong> <span>September 05, 2026</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+
+      <!-- Table of Contents -->
+      <nav class="toc-box" aria-label="Table of contents">
+        <h3>Contents</h3>
+        <ol class="toc-list">
+          <li><a href="#section-1">1. Introduction</a></li>
+          <li><a href="#section-2">2. Local-First Architecture</a></li>
+          <li><a href="#section-3">3. Permissions We Use &amp; Why</a></li>
+          <li><a href="#section-4">4. Information Collection &amp; Use</a></li>
+          <li><a href="#section-5">5. Third-Party Services &amp; SDKs</a></li>
+          <li><a href="#section-6">6. Data Storage &amp; Security</a></li>
+          <li><a href="#section-7">7. Retention &amp; Deletion</a></li>
+          <li><a href="#section-8">8. Children’s Privacy</a></li>
+          <li><a href="#section-9">9. Your Rights (GDPR &amp; CCPA)</a></li>
+          <li><a href="#section-10">10. Legal Disclosures</a></li>
+          <li><a href="#section-11">11. Policy Changes &amp; Contact</a></li>
+        </ol>
+      </nav>
+
+      <!-- Section 1 -->
+      <section id="section-1">
+        <h2>1. Introduction</h2>
+        <p>
+          We at <strong>The Pi Apps</strong> ("we", "our", or "us") have developed <strong>Messages - SMS &amp; Text
+            Messages</strong> (the "App", package: <code>com.pi.messages</code>) to serve as a fast, private, and
+          customizable default SMS &amp; MMS application for Android devices. This Privacy Policy is designed to clearly
+          inform you about how we handle system permissions, what information is accessed, and how your privacy is
+          safeguarded when you use our App.
+        </p>
+        <p>
+          By downloading, installing, or using our App, you acknowledge and agree to the practices outlined in this
+          Privacy Policy. If you disagree with these terms, please do not use the application.
+        </p>
+      </section>
+
+      <!-- Section 2 -->
+      <section id="section-2">
+        <h2>2. Our Core Privacy Principle: Local-First Processing</h2>
+        <div class="highlight-box">
+          <h3>✅ 100% Private, Zero Remote Storage Guarantee</h3>
+          <p>
+            Your text messages, contact records, call histories, and attachments belong exclusively to you.
+          </p>
+          <ul>
+            <li><strong>No Cloud Sync or Server Storage:</strong> Your SMS/MMS messages and contacts are stored and
+              processed strictly <strong>locally on your Android device</strong>. We do not operate remote servers that
+              store, read, or sync your private text conversations.</li>
+            <li><strong>Zero Data Selling:</strong> We never harvest, monetize, rent, or sell your personal
+              communication data to advertisers or third parties.</li>
+            <li><strong>No Message Snooping:</strong> We do not inspect or listen to private message contents or voice
+              recordings.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section id="section-3">
+        <h2>3. Permissions We Use and Why</h2>
+        <p>
+          To provide complete default SMS handler capabilities and post-call productivity tools, our App requires
+          specific Android system permissions. Each permission is strictly utilized to deliver user-facing
+          functionality:
+        </p>
+
+        <!-- SMS & MMS -->
+        <div class="permission-group">
+          <div class="permission-group-title">A. SMS &amp; MMS Capabilities</div>
+          <div class="permission-item">
+            <div class="permission-badge">SEND_SMS</div>
+            <p class="permission-desc">Required to dispatch text messages when you compose, reply, schedule SMS, or
+              trigger quick responses from the After Call screen.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">RECEIVE_SMS &amp; RECEIVE_MMS</div>
+            <p class="permission-desc">Allows the App to receive incoming SMS and MMS (pictures, videos, audio, group
+              messages) as your Default SMS Application and present incoming alerts.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">READ_SMS</div>
+            <p class="permission-desc">Allows the App to read and organize your SMS history into conversations, filter
+              categories (Personal, Business, OTPs, Transactions), and report delivery status.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">BROADCAST_SMS &amp; BROADCAST_WAP_PUSH</div>
+            <p class="permission-desc">System-level broadcast receivers required by Android OS for default telephony
+              applications to properly process incoming SMS and MMS packets.</p>
+          </div>
+        </div>
+
+        <!-- Contacts & Phone -->
+        <div class="permission-group">
+          <div class="permission-group-title">B. Contacts, Phone State &amp; Call Logs</div>
+          <div class="permission-item">
+            <div class="permission-badge">READ_CONTACTS</div>
+            <p class="permission-desc">Enables displaying contact names and avatars in conversation threads, recipient
+              autocompletion when drafting new messages, and grouping contacts into chat folders. Contact data never
+              leaves your device.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">READ_PHONE_STATE</div>
+            <p class="permission-desc">Enables detecting incoming/outgoing call states to know when a call finishes (for
+              the After Call assistant) and identifying multi-SIM card slots to allow choosing SIM 1 or SIM 2 when
+              sending texts.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">READ_CALL_LOG</div>
+            <p class="permission-desc">Used strictly on-device by the optional <em>After Call Screen</em> to display
+              recent call information (contact name, number, call duration, incoming/outgoing/missed status) so you can
+              immediately send a follow-up SMS or set a reminder.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">CALL_PHONE</div>
+            <p class="permission-desc">Allows you to place a direct phone call to a message sender or contact with a
+              single tap from the chat toolbar or the After Call screen.</p>
+          </div>
+        </div>
+
+        <!-- System & Notifications -->
+        <div class="permission-group">
+          <div class="permission-group-title">C. System, Overlay &amp; Scheduling</div>
+          <div class="permission-item">
+            <div class="permission-badge">SYSTEM_ALERT_WINDOW ("Display Over Other Apps")</div>
+            <p class="permission-desc">Enables the optional After Call assistant dialog to pop up conveniently over your
+              current screen immediately after a phone call disconnects.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">POST_NOTIFICATIONS (Android 13+)</div>
+            <p class="permission-desc">Used to display instant notification alerts for incoming messages, delivery
+              confirmations, and user-scheduled reminders.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">SCHEDULE_EXACT_ALARM</div>
+            <p class="permission-desc">Used to trigger user-scheduled SMS dispatches and task reminders at the exact
+              minute specified by the user.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">WAKE_LOCK &amp; VIBRATE</div>
+            <p class="permission-desc">Allows briefly waking the CPU to parse incoming SMS, light up the screen for
+              high-priority alerts (if enabled in settings), and provide tactile haptic vibrations.</p>
+          </div>
+        </div>
+
+        <!-- Media, Storage & Location -->
+        <div class="permission-group">
+          <div class="permission-group-title">D. Media, Camera &amp; Location</div>
+          <div class="permission-item">
+            <div class="permission-badge">CAMERA</div>
+            <p class="permission-desc">Allows capturing photos or short videos directly inside the conversation screen
+              to attach and send immediately via MMS.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">STORAGE &amp; FILE ACCESS (FileProvider)</div>
+            <p class="permission-desc">Used to select gallery media for message attachments, save received photos/videos
+              to your storage, and generate local message backups.</p>
+          </div>
+          <div class="permission-item">
+            <div class="permission-badge">ACCESS_FINE_LOCATION &amp; ACCESS_COARSE_LOCATION</div>
+            <p class="permission-desc">Utilized solely when you intentionally tap the Location Picker tool to select and
+              share your location pin with a contact. We do not track background location.</p>
+          </div>
+        </div>
+
+        <!-- Network -->
+        <div class="permission-group">
+          <div class="permission-group-title">E. Network &amp; Internet</div>
+          <div class="permission-item">
+            <div class="permission-badge">INTERNET &amp; ACCESS_NETWORK_STATE</div>
+            <p class="permission-desc">Used to serve Google AdMob advertisements in the free version, check network
+              connectivity, process Google Play in-app billing subscriptions, and transmit anonymous crash logs via
+              Firebase.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4 -->
+      <section id="section-4">
+        <h2>4. Information Collection and Use</h2>
+        <p>We classify information into two distinct categories:</p>
+
+        <h3>A. Information Processed Strictly on Your Device (Not Collected Remotely)</h3>
+        <ul>
+          <li><strong>Message Content:</strong> Texts, multimedia attachments, timestamps, and delivery reports.</li>
+          <li><strong>Contact List &amp; Phone Numbers:</strong> Processed solely for identification and message
+            routing.</li>
+          <li><strong>Call Log Metadata:</strong> Displayed on the After Call screen assistant only when enabled.</li>
+          <li><strong>SafeBox &amp; App Lock:</strong> Passcodes, PINs, and biometric authentication remain securely
+            protected within Android's hardware-backed Keystore and BiometricPrompt framework.</li>
+          <li><strong>On-Device Machine Learning:</strong> Message translation and language identification (via Google
+            ML Kit) operate locally on your device without transmitting text to external cloud servers.</li>
+        </ul>
+
+        <h3>B. Technical &amp; Diagnostic Data (Collected by Third-Party SDKs)</h3>
+        <p>
+          To maintain app quality and serve advertisements, our integrated third-party SDK partners may collect
+          anonymized technical information:
+        </p>
+        <ul>
+          <li><strong>Device Identifiers:</strong> Advertising ID (Google GAID) and random installation IDs.</li>
+          <li><strong>Device Information:</strong> Device model, manufacturer, OS version, language, and screen
+            resolution.</li>
+          <li><strong>Crash &amp; Diagnostic Logs:</strong> Stack traces, app crashes, and memory states via Firebase
+            Crashlytics to resolve bugs.</li>
+          <li><strong>Anonymous Usage Stats:</strong> Screen views and interaction events via Firebase Analytics.</li>
+        </ul>
+      </section>
+
+      <!-- Section 5 -->
+      <section id="section-5">
+        <h2>5. Third-Party Services and SDKs</h2>
+        <p>Our app incorporates trusted third-party SDKs for advertisements, payment processing, and crash tracking:</p>
+
+        <div class="service-grid">
+          <div class="service-card">
+            <h4>Google AdMob</h4>
+            <p>Serves banner, native, interstitial, and app-open ads in the free version of the App.</p>
+            <a class="service-link" href="https://policies.google.com/technologies/ads" target="_blank"
+              rel="noopener">AdMob Privacy Policy →</a>
+          </div>
+
+          <div class="service-card">
+            <h4>Google Play Billing</h4>
+            <p>Securely processes in-app purchases and subscriptions for ad removal. We never touch financial details.
+            </p>
+            <a class="service-link" href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google
+              Privacy Policy →</a>
+          </div>
+
+          <div class="service-card">
+            <h4>Firebase Crashlytics &amp; Analytics</h4>
+            <p>Monitors application stability, tracks crash reports, and helps optimize app performance.</p>
+            <a class="service-link" href="https://firebase.google.com/support/privacy" target="_blank"
+              rel="noopener">Firebase Privacy Policy →</a>
+          </div>
+
+          <div class="service-card">
+            <h4>Google Maps SDK</h4>
+            <p>Provides the interactive map preview in the location attachment picker.</p>
+            <a class="service-link" href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google
+              Maps Privacy Policy →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 6 -->
+      <section id="section-6">
+        <h2>6. Data Storage and Security</h2>
+        <ul>
+          <li><strong>Local Storage Sandboxing:</strong> All messages, contacts, and personal preferences reside inside
+            your device's protected application sandbox, shielded from other apps by the Android operating system.</li>
+          <li><strong>Industry Standard Practices:</strong> We utilize secure FileProvider sharing and Android Keystore
+            cryptography to safeguard your data against unauthorized local access.</li>
+          <li><strong>No Web Transmission:</strong> Since personal message data is never transmitted across the
+            internet, it is invulnerable to remote server breaches or man-in-the-middle data compromises.</li>
+        </ul>
+      </section>
+
+      <!-- Section 7 -->
+      <section id="section-7">
+        <h2>7. Data Retention and Deletion</h2>
+        <ul>
+          <li><strong>User Retained Control:</strong> You retain complete control over all messages, conversations, and
+            backups. You can delete individual messages or entire threads at any time from within the App.</li>
+          <li><strong>Uninstalling / Clearing Data:</strong> Clearing the App's storage via Android Settings
+            (<code>Settings &gt; Apps &gt; Messages &gt; Storage &gt; Clear Data</code>) or uninstalling the App
+            completely erases all local application data and custom folders.</li>
+          <li><strong>No Server Retention:</strong> Because we hold no copies of your personal data on remote servers,
+            no server-side retention or account deletion request is necessary.</li>
+        </ul>
+      </section>
+
+      <!-- Section 8 -->
+      <section id="section-8">
+        <h2>8. Children's Privacy (COPPA &amp; GDPR Compliance)</h2>
+        <p>
+          Our App is not intended for or directed toward children under the age of 13 (or under 16 for residents of the
+          European Economic Area). We do not knowingly collect personal information from children. If you become aware
+          that a child has provided personal information without parental consent, please contact us immediately, and we
+          will take necessary measures to remove such data.
+        </p>
+      </section>
+
+      <!-- Section 9 -->
+      <section id="section-9">
+        <h2>9. Your Privacy Rights (GDPR &amp; CCPA/CPRA)</h2>
+        <p>Depending on your residency, you are entitled to specific statutory privacy rights:</p>
+        <ul>
+          <li><strong>Right of Access &amp; Portability:</strong> You have immediate access to your entire chat history
+            directly on your device and can export or back up your messages.</li>
+          <li><strong>Right to Rectification &amp; Erasure:</strong> You can edit contacts, delete conversations, or
+            purge local backups at will.</li>
+          <li><strong>Right to Withdraw Consent:</strong> You can grant or revoke any Android permission (Camera,
+            Location, Overlay, Contacts, etc.) at any time via Android System Settings.</li>
+          <li><strong>Opting Out of Personalized Ads:</strong> You can opt out of interest-based ads by navigating to
+            your device's <code>Settings &gt; Google &gt; Ads &gt; Delete / Reset Advertising ID</code>.</li>
+        </ul>
+      </section>
+
+      <!-- Section 10 -->
+      <section id="section-10">
+        <h2>10. Compliance with Legal Obligations</h2>
+        <p>
+          We may disclose technical diagnostic data if required to do so by applicable laws, court orders, or subpoenas.
+          However, because we do not collect, store, or transmit your private SMS/MMS messages or call logs to any
+          remote server, we are technically incapable of providing copies of your private communications to third
+          parties or law enforcement agencies.
+        </p>
+      </section>
+
+      <!-- Section 11 -->
+      <section id="section-11">
+        <h2>11. Changes to This Privacy Policy &amp; Contact Us</h2>
+        <p>
+          We may periodically update this Privacy Policy. Any modifications will be posted on this page with a revised
+          "Effective Date" at the top. We encourage you to review this policy periodically.
+        </p>
+
+        <div class="contact-card">
+          <p><strong>Have Questions or Feedback?</strong></p>
+          <p>If you have any questions or suggestions regarding this Privacy Policy, please feel free to reach out to
+            our team:</p>
+          <p><strong>App:</strong> Messages - SMS &amp; Text Messages (<code>com.pi.messages</code>)</p>
+          <p><strong>Developer:</strong>The Pi Apps</p>
+          <p><strong>Email:</strong> <a href="mailto:officialpiapps@gmail.com">officialpiapps@gmail.com</a></p>
+          <p><strong>In-App Feedback:</strong> Open the App &gt; Tap Menu &gt; Settings &gt; Send Feedback</p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+</body>
+
+</html>
